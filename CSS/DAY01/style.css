@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.box1{
+    height:33vh;
+    width: 100px;
+    background-color: aqua;
+}
+.box2{
+    height:33vh;
+    width: 100px;
+    background-color: black;
+}
+.box3{
+    height:33vh;
+    width: 100px;
+    background-color: chartreuse;
+}
+.parent{
+    flex-direction: row;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
