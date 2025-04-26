@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .parent{
+        height: 450px;
+        width:800px;
+        /* background-color: bisque; */
+        /* border: 2px solid black; */
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    }
+    .btn{
+        background-color: blue;
+        color: white;
+        border-radius:20px;
+        padding:10px;
+        font-size: 20px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    }
+    .circlediv{
+        display: flex;
+        gap:10px;
+    }
+    .posted{
+        display: flex;
+        gap: 10px;
+        opacity: .7;
+    }
+    .firstline{
+        /* background-color: aqua; */
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .circle{
+        background-color: rgb(37, 242, 95);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    i{
+        color: white;
+        padding: 8px;
+    }
+    .parentofAll{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+h4{
+    padding: 6.5px;
+}
+</style>
+<body>
+    <div class="parentofAll">
+   <div class="parent">
+    <button class="btn"><b>+ Create</b></button>
+    <div class="firstline">
+   <div class="circlediv">
+      <div class="circle"><i class="fa-solid fa-book"></i></div>
+      <h4>functions :25/4/2025</h4>
+   </div>
+   <div class="posted">Posted 6:40
+    <p>...</p>
+    
+   </div>
+</div>
+<hr>
+<div class="firstline">
+    <div class="circlediv">
+       <div class="circle"><i class="fa-solid fa-book"></i></div>
+       <h4>Arrays and Vectors:25/4/2025</h4>
+    </div>
+    <div class="posted">Posted 3:40
+     <p>...</p>
+    </div>
+ </div>
+ <hr>
+ <div class="firstline">
+    <div class="circlediv">
+       <div class="circle"><i class="fa-solid fa-book"></i></div>
+       <h4>Call by reference:25/4/2025</h4>
+    </div>
+    <div class="posted">Posted 6:40
+     <p>...</p>
+    </div>
+ </div>
+ <hr>
+ <div class="firstline">
+    <div class="circlediv">
+       <div class="circle"><i class="fa-solid fa-book"></i></div>
+       <h4>Time Complexity:25/4/2025</h4>
+    </div>
+    <div class="posted">Posted 1:40
+     <p>...</p>
+    </div>
+ </div>
+ <hr>
+ <div class="firstline">
+    <div class="circlediv">
+       <div class="circle"><i class="fa-solid fa-book"></i></div>
+       <h4>For loop and While loop:25/4/2025</h4>
+    </div>
+    <div class="posted">Posted 8:40
+     <p>...</p>
+    </div>
+ </div>
+ <hr>
+   </div>
+</div>
+</body>
+</html>
