@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<Style>
+    *{
+        margin: 0;
+    }
+    .left{
+        background-color: red;
+        height: 100vh;
+        width: 20%;
+    }
+    .main{
+        background-color: yellow;
+        flex-grow: 1;
+    }
+    .right{
+        background-color: green;
+        width: 20%;
+    }
+    .parent{
+        display: flex;
+    }
+</Style>
+<body>
+    <div class="parent ">
+        <div class="left">left</div>
+        <div class="main">main</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>
